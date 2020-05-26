@@ -1,0 +1,23 @@
+{
+  "name": "coviapp",
+  "version": "1.0.0",
+  "description": "aplication to bictia project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miranda13/CovidApp.git"
+  },
+  "keywords": [
+    "nodejs",
+    "firebase"
+  ],
+  "author": "David Saza Daniel Florez Anamaria Miranda",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Miranda13/CovidApp/issues"
+  },
+  "homepage": "https://github.com/Miranda13/CovidApp#readme"
+}
