@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Miranda13/CovidApp/issues"
   },
-  "homepage": "https://github.com/Miranda13/CovidApp#readme"
+  "homepage": "https://github.com/Miranda13/CovidApp#readme",
+  "dependencies": {
+    "nodemailer": "^6.4.10"
+  }
 }

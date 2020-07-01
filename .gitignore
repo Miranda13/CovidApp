@@ -39,7 +39,7 @@ build/Release
 
 # Dependency directories
 node_modules/
-#private/
+private/
 config.json
 jspm_packages/
 

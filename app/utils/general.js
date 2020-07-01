@@ -16,29 +16,15 @@ const General = function(){
         General.firebase = admin;
     }
 
-    /*if(typeof General.sqlite == 'undefined'){//define attributes sqlite
-        const sqlite3 = require('sqlite3').verbose(); //use of sqlite3 install with npm sqlite3
-        const sqliteClient = new sqlite3.Database('./db/db.sqlite');  //create databe with name: sqliteClient
-        General.sqlite = sqliteClient;
-    }*/
-
     this.getFirebase = function(){
         return General.firebase;
     };
-    this.getSQLite = function(){
-        return General.sqlite;
-    };
-
 
     this.getDatabaseModel = function(database){
         let model;
         
         //switch(General.defaultDatabase){
         switch(database){ //election of motor databse
-            /*case 'sqlite':
-                console.log('sqlite');
-                model = require('../models/sqlite-model')(General.sqlite);
-            break;*/
             case 'firestore':
                 console.log('firestore');
                 model = require('../models/firestore-model')(General.firebase.firestore());
